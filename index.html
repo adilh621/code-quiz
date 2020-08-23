@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz!</title>
+
+    <!-- link to bootstrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- link to personal stylesheet  -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="nav">
+        <!-- view scores link on the top left of nav bar-->
+        <div class="score">
+            <a onclick="getScore()" href="highscore.html"><h4 >View Highscore</h4></a>
+        </div>
+        <!-- countdown timer on the top right of nav bar-->
+        <div class="timer">
+            <h4>Time: <span id="timeLeft">0</span></h4>
+        </div>
+    </div>
+    <br>
+    <!--main body of quiz-->
+    <div id="quiz">
+        <div id="quizBody">      
+            <h1>   
+                JavaScript Quiz!
+            </h1>
+            <h3>
+                Click to play!   
+            </h3>
+            <button onclick="start()">Start!</button>
+        </div>
+    </div>
+
+</body>
+</html>

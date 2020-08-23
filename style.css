@@ -1,0 +1,20 @@
+.nav{
+    padding-top:20px;
+    margin:auto;
+    border-style:solid;
+
+}
+.score{
+    padding-left:20px;
+}
+.timer{
+    padding-left:1600px;
+}
+#quiz{
+    border-style:solid;
+    min-height: 500px;
+}
+#quizBody{
+    margin:auto;
+    text-align: center;
+}
