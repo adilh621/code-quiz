@@ -17,3 +17,16 @@ header{
     margin-top:75px;
 
 }
+
+/* Our hide / show class  */
+.hide {
+    display: none!important;
+}
+
+.show {
+    display: block;
+}
+.choice{
+    display: block;
+    margin-top: 10px;
+}
