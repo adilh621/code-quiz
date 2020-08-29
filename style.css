@@ -1,20 +1,19 @@
-.nav{
-    padding-top:20px;
+header{
     margin:auto;
-    border-style:solid;
+    margin-top:10px;
+    margin-bottom:20px;
+    
+}
+
+#title-section{
+
+    margin-top:75px;
+    
 
 }
-.score{
-    padding-left:20px;
-}
-.timer{
-    padding-left:1600px;
-}
-#quiz{
-    border-style:solid;
-    min-height: 500px;
-}
-#quizBody{
-    margin:auto;
-    text-align: center;
+
+#end-screen{
+
+    margin-top:75px;
+
 }
